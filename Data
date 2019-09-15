@@ -1,0 +1,15 @@
+The key outputs of the work are two maps of Toronto. One shows the density of all restaurants in a 500m radius of each postcode.
+This uses the postcode page on Wikipedia:
+'https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M'
+Foursquare is used in search mode to return all restaurants within the radius of the postcode. Folium is then used to vislualise the
+density of restaurants. 
+
+A new data frame is then generated that drops duplicates (as some postcodes are within 500m of each other). This data frame then selects
+just the pizza restaurants. This data frame is then extended using Foursquare to inlcude the longitude and latitude of each pizza
+restaurant as well as the rating and price tier.
+
+The result is a detailed frame of 101 pizza resturants across Toronto. This data is then used to produce a second interactive map using 
+Folium. The markers now represent pizza restaurant locations and are colour coded for rating. The exception is that restaurants in price
+tier 2 are blue. This interactive map provides a way of exploring where the Greenfield and Displace models of disruption might work.
+
+
