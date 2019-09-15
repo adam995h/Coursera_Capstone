@@ -1,0 +1,9 @@
+An owner of a chain of pizza restaurants is looking to open a new location in one of Toronto's neighbourhoods. In order to inform this decision it is intended to explore two key aspects of the current status of restaurants in Toronto using publicly available data and venue information from Foursquare. These aspects are:
+1. The density of all types of restaurants in each postcode and
+2. For each of the pizza restaurants listed on Foursquare to visualise their location, rating and price tier.
+Using Folium to map the density within a postcode and to map the restaurant location, rating and price tier it is intended to visually explore where the opportunities to disrupt the market might be optimum.
+
+The approach used will facilitate two models of disrution that ask teh following questions:
+1. Greenfield - where is their low density of restaurants and an opportunity to site a new business?
+2. Displace - where is there a set of poorly performing establishments that could be disrupted?
+The approach should also indicate where there is good service and disruption may be difficult. The use of visualising the data will provide understanding about how geographical aspects of the city such as the waterfront and airports impact upon teh opportunity.
